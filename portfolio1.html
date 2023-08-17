@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website </title>
+    <link rel="stylesheet" href="portfolio1.css">
+    <script src="https://kit.fontawesome.com/cb00153f9a.js" crossorigin="anonymous"></script>
+    
+</head>
+
+<body>
+    <div id="header">
+        <div classs="container">
+            <nav>
+                <img src="https://logos.textgiraffe.com/logos/logo-name/Shahina-designstyle-boots-m.png" class="logo">
+                <ul>
+                    <!--#-->
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <!--<i class="fa-solid fa-circle-xmark"></i>-->
+                </ul>
+                <!--<i class="fa-solid fa-bars"></i>-->
+            </nav>
+            <div class="header-text">
+                <p>Web Designer</p>
+                <h1>Hi, I'm <span>Shahinabi</span><br> From India</h1>
+            </div>
+        </div>
+
+    </div>
+    <!------------about------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./shahin.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                        popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                        and more recently with desktop publishing software like Aldus PageMaker including versions of
+                        Lorem Ipsum.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI?UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Designing Web/App Interfaces</li>
+                            <li><span>App Developmet</span><br>Designing Web/App Interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021-Current</span><br>Designing Web/App Interfaces</li>
+                            <li><span>2019-2021</span><br>Designing Web/App Interfaces</li>
+                            <li><span>2022-2023</span><br>Designing Web/App Interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018</span><br>Completed 10th Class in A.P.Model School Racherla</li>
+                            <li><span>2020</span><br>Completed Studying PUC(Inter(MPC)) in RGUKT Ongole Campus in
+                                Rk-Valley</li>
+                            <li><span>2023</span><br>Currently Pursuing B.tech Final year in the department of ECE in
+                                Rgukt-Ongole Campus pin:523225</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------Services--------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.It has survived not
+                        only five centuries, but also the leap into electronic typesetting, remaining essentially
+                        unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+                        Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
+                        including versions of Lorem Ipsum.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>App Development</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.It has survived not
+                        only five centuries, but also the leap into electronic typesetting, remaining essentially
+                        unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+                        Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
+                        including versions of Lorem Ipsum.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Android Development</h2>
+                    <p> Lorem Ipsum has been the industry's standard dIt has survived not only five centuries, but also
+                        the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
+                        1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                        with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <a href="#">Learn more</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------portfolio----------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="https://img.freepik.com/free-vector/app-development-banner_33099-1720.jpg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The App Connects to the talented peopele around the world Download it from thE play store</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img
+                        src="https://assets.entrepreneur.com/content/3x2/2000/20160302090451-Great-Grocery-Deals-at-BigBasket-with-Pennyful.jpeg">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The App Connects to the talented peopele around the world Download it from thE play store</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://img.freepik.com/free-vector/app-development-illustration_52683-47931.jpg?w=2000">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The App Connects to the talented peopele around the world Download it from thE play store</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+
+    <!--------contact------------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+
+                <div class="contact-left col-sm-6 col-md-6">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>palukurishahinabi6510@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9849696566</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                
+                <a href="./PALUKURI_SHAHINABI_RESUME.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right col-sm-6 col-md-6 d-flex flex-column">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Nmae" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" row="12" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright shahin. Made with <i class="fas fa-heart"></i> by Shahin</p>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+
+</html>
